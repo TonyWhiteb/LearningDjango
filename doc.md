@@ -1,4 +1,4 @@
-# Structure
+# Project Structure
 ```
 mysite/
     manage.py
@@ -29,4 +29,21 @@ A "table of contents" of your Django-powered site.
 An entry-point for WSGI-compatible web servers to serve your project.
 [How to deploy with WSGI](https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/)
 
+
+# Application Structure
+Each application you write in Django consists of a Python package that follows a certain convention.
+
+__Your apps can live anywhere on your Python path__
+
+Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories.
+```
+
+```
+
+
+# Projects VS. APPS
+
+An app is a Web application that does something- e.g. a Weblog system, a database of public records or a simple poll app.  
+A project is a collection of configuration and apps for a particular website.  
+A project can contain multiple apps. An app can be in multiple projects.
 
