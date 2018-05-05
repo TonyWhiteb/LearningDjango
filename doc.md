@@ -37,7 +37,15 @@ __Your apps can live anywhere on your Python path__
 
 Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories.
 ```
-
+polls/
+    __init__.py
+    admin.py
+    apps.py
+    migrations/
+        __init__.py
+    models.py
+    tests.py
+    views.py
 ```
 
 
